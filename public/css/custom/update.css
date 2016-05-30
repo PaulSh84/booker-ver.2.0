@@ -1,0 +1,50 @@
+body {
+  
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../img/custom/booking.jpg") fixed;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+  	
+}
+.row {
+   
+    margin: 0em 6em;
+}
+
+.page-header {
+    
+    margin: 0em 9em 1.25em;
+    padding-bottom: 0px;
+}
+
+
+h2 {
+    
+    color: white;
+}
+
+h2 > span.small  {
+    
+    padding: 1.5%;
+    color: springgreen;
+    
+    
+}
+
+.alert {
+    
+    text-align: center;
+}
+
+div[id ^="datetimepicker"] {
+    
+    width: 10em;
+}
+
+input[name=option] {
+    cursor: pointer;
+}
+
+div.last{
+    margin-top: 2em;
+}

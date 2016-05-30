@@ -1,0 +1,97 @@
+html {
+    height: 100%;
+}
+
+body {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.12)), url("../../img/custom/confRoom.jpg") center fixed;
+  background-size: cover;
+  min-height: 100%;
+  color: #151414;
+  font-weight: 600;
+
+
+}
+
+.button_dropdown {
+    
+    float: right;
+}
+
+.dropdown button,
+.dropdown button:focus,
+.dropdown button:hover,
+.open>.dropdown-toggle.btn-default {
+
+    background-color: #449d44;
+    border-color: #398439;
+    color: white;
+}
+
+.dropdown-menu {
+    background-color: #449d44;
+    border-color: #398439;
+    min-width: 0px;
+}
+.dropdown-menu > li > a {
+    color: white;
+}
+
+.masthead h3 {
+    display: inline-block;
+    color: white;
+}
+
+.container {
+    width: 73%;
+
+}
+
+p.lead {
+    margin-top: 1em;
+    color: black;
+}
+
+
+.alert {
+  text-align: center;
+  width: 35%;
+  margin: 1em auto;
+}
+
+/* small screen portrait */
+
+@media screen and (max-width: 480px) {
+
+.button_dropdown { 
+  float: none; 
+}
+
+}
+
+/* Loading modal styles  */
+
+.modal {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 ) 
+                url('../../img/custom/clock.gif') 
+                50% 50% 
+                no-repeat;
+}
+
+/* When the body has the loading class, we turn
+   the scrollbar off with overflow:hidden */
+body.loading {
+    overflow: hidden;   
+}
+
+/* Anytime the body has the loading class, our
+   modal element will be visible */
+body.loading .modal {
+    display: block;
+}
